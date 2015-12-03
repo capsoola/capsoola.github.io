@@ -1,0 +1,128 @@
+
+body {
+  margin: 0;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Verdana';
+/*  background: linear-gradient(#363A45, #CFD3DC); */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div#logo {
+/*  border-top: 1px solid #b4b4bc; */
+  height: 180px;
+  width: 1100px;
+  text-align: center;
+  font-size: 115px;
+  line-height: 25vh;
+  transform: rotate(5deg);
+  margin-bottom: 120px;
+  transition: 1s;
+}
+
+div#menu {
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+div.tag {
+  display: inline;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 25px;
+  color: #bbb;
+  transition: 1s;
+}
+div.tag:hover {
+  transition: 1s;
+  transform: rotate(360deg);
+  color: #363A45;
+/*  transform: rotate(360deg); */
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(1px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+div#content {
+  margin-top: 5vh;
+  height: 55vh;
+  width: 100%;
+  font-size: 45px;
+  text-align: center;
+}
+
+div#caps {
+  float: left;
+  display: inline-block;
+  height: 200px;
+  line-height: 190px;
+  margin-left: 23%;
+  text-align: right;
+  width: 27%;
+  background: #363A45;
+  color: #CFD3DC;
+  border-top-left-radius: 190px;
+  border-bottom-left-radius: 190px;
+  transition: 1s;
+}
+div#oola {
+  float: right;
+  display: inline-block;
+  height: 200px;
+  line-height: 190px;
+  margin-right: 23%;
+  text-align: left;
+  width: 27%;
+  color: #363A45;
+  background: #CFD3DC;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  transition: 1s;
+}
+
+div#intro {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 90px;
+  color: #B4B4BC;
+}
+
+div#logo:hover {
+  transition: 0.5s;
+}
+
+#logo:hover #caps {
+  margin-left: 20%;
+  margin-right: 3%;
+  transition: 0.5s;
+  transform: rotate(9deg);
+}
+
+#logo:hover #oola {
+  margin-right: 20%;
+  margin-left: 3%;
+  transition: 0.5s;
+  transform: rotate(-18deg);
+}
