@@ -21,8 +21,6 @@ div#main {
   margin-left: 14.3%;
   background:
     linear-gradient(to right, #FF5C55 0%, #FF5C55 20%, #FC9E54 20%, #FC9E54 40%, #FEBD55 40%, #FEBD55 60%, #396268 60%, #396268 80%, #34929A 80%, #34929A 100%);
-  border-top-left-radius: 25vh;
-  border-top-right-radius: 25vh;
 }
 
 div#header {
