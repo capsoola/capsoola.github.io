@@ -13,8 +13,10 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background: linear-gradient(to right, #FF5C55 0%, #FF5C55 50%, #34929A 50%, #34929A 100%);
   transition: 2s;
+  background:
+    linear-gradient(to right, #FF5C55 0%, #FF5C55 50%, #34929A 50%, #34929A 100%);
+  background:
 }
 
 div#main {
@@ -23,8 +25,6 @@ div#main {
   margin-left: 14.3%;
   background:
     linear-gradient(to right, #FF5C55 0%, #FF5C55 20%, #FC9E54 20%, #FC9E54 40%, #FEBD55 40%, #FEBD55 60%, #396268 60%, #396268 80%, #34929A 80%, #34929A 100%);
-  border-top-left-radius: 20vh;
-  border-top-right-radius: 20vh;
 }
 
 div#header {
@@ -44,7 +44,7 @@ div#love {
   width: 100.1%;
   font-size: 9.5vh;
   background: #fff;
-  opacity: 0.75;
+  opacity: 0.80;
   color: #000;
   transition: 1s;
   border-top-left-radius: 10vh;
