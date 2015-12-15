@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'stereo';
+  src: url('../fonts/stereo.ttf');
+}
+
+body {
+  margin: 0px;
+  font-family: 'stereo';
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #f1f1f1;
+  /*
+  background:
+    linear-gradient(to right, #FF5C55 0%, #FF5C55 20%, #FC9E54 20%, #FC9E54 40%, #FEBD55 40%, #FEBD55 60%, #396268 60%, #396268 80%, #34929A 80%, #34929A 100%);
+    */
+}
+
+div.picture {
+  margin: 0 auto;
+  height: 30vh;
+  width: 30vh;
+  margin-top: 30vh;
+  margin-bottom: 40vh;
+  border-radius: 30vh;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+div.picture:hover {
+  margin: 0 auto;
+  margin-top: 0;
+  height: 100vh;
+  width: 100%; 
+  border-radius: 0vh;
+}
+
